@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/Deep Learning/Assignments/Assignment 4/Part 2/Squid Bat Butterfly/train
+val:   /content/drive/MyDrive/Deep Learning/Assignments/Assignment 4/Part 2/Squid Bat Butterfly/split/val
+test:  /content/drive/MyDrive/Deep Learning/Assignments/Assignment 4/Part 2/Squid Bat Butterfly/split/test
+
+nc: 3
+names: ['Bat', 'Butterfly', 'Squid']
+
+roboflow:
+  workspace: yolo-a6y21
+  project: squid-bat-butterfly
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-a6y21/squid-bat-butterfly/dataset/2
